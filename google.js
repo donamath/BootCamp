@@ -105,4 +105,24 @@ console.log(`My age\t is ${a}.\n What\bab\\t y?`);
 
 /***********************************************************************/
 
+// Declare the myGlobal variable below this line
+var myGlobal=10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+var oopsGlobal=5;
+}
+
+// Only change code above this line
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
 
